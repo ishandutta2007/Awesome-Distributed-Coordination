@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,27 +42,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global distributed coordination and service discovery market is estimated at approximately $2.5 billion (scaling toward $7.8+ billion by the early 2030s at ~15.5% CAGR), while the broader microservices orchestration and control plane market exceeds $4.4 billion growing at >22% CAGR. The sector exhibits a **concentrated, bifurcated structure** where foundational consensus and discovery standards are dominated by ubiquitous open-source projects (etcd, ZooKeeper, CoreDNS) and mega-cap cloud hyperscalers (AWS, Microsoft Azure, Google Cloud), alongside focused multi-billion-dollar enterprise platforms like Redis and IBM/HashiCorp Consul.
+
 ## SaaS/Hosted Platforms
 
+| Company / Parent | Valuation / Revenue | Product / Platform | Primary Focus | Pricing (Paid Tiers) | Free Tier Limits / Free Trial |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Alphabet (Google)** | ~$4.15T Market Cap ($350B+ Revenue) | **Google Cloud Runtime Configuration** | Centralized metadata, hierarchical configuration, and synchronization primitives | Pay-as-you-go infrastructure / API usage; no direct standalone fee per variable | 90-day free trial with $300 cloud credits for new accounts; max 4 MB data per config resource |
+| **Microsoft** | ~$3.95T Market Cap ($245B+ Revenue) | **Azure App Configuration** | Managed dynamic configuration, feature flags, and instant rollout control | Standard tier starts at $1.20/store/day (~$36/month per store) including 200,000 requests/day ($0.06 per 10k overage) | Free forever plan: 1 store per subscription, 10 MB storage, and up to 1,000 requests/day (7-day history) |
+| **Amazon (AWS)** | ~$2.80T Market Cap ($620B+ Revenue) | **AWS AppConfig** | Dynamic configuration deployment, validation, and gradual rollout management | Pay-as-you-go: $0.20 per 1M configuration requests ($0.0000002/req) + $800 per 1M configurations received ($0.0008/recv) | No standalone perpetual free tier; covered under AWS Free Plan ($100–$200 promotional credits over 6–12 months for new accounts) |
+| **IBM (HashiCorp)** | ~$220B Market Cap ($6.4B Acquisition / $600M+ ARR) | **HashiCorp Cloud Platform (HCP) Consul** | Fully managed service discovery, service mesh, and distributed key-value store | Development clusters start at $0.61/hour (~$440/month); Production Standard clusters start at $1.50/hour (~$1,080/month) | No perpetual free tier; 30-day free platform trial with $500 HCP credits for new accounts |
+| **Redis** | ~$2.0B Valuation ($300M+ ARR) | **Redis Enterprise Cloud** | Distributed locks (Redlock), high-throughput coordination, and in-memory key-value data | Paid fixed tiers start at $5.00/month (250MB storage); flexible pay-as-you-go plans start at $0.0125/hour (~$9/month) | Free forever plan: 1 database with 30 MB storage, up to 30 concurrent client connections |
 
-
-- **Redis Enterprise**
-
-  **Commercial version of Redis** with active-active geo-distribution, built-in CRDTs, and enterprise support. **Free tier**: **Redis Cloud Free** provides 30MB storage with limited connections; **Fixed plans start at $5/month** for 250MB. **Best for**: organizations wanting Redis with commercial support and multi-region replication.
-
-
-
-- **Chubby (Google)**
-
-  **Google's internal lock service**—the inspiration for many coordination systems. **Note**: Not publicly available. **The historical benchmark** against which all distributed lock services are measured.
-
-
-
-- **AWS AppConfig / Azure App Configuration / Google Cloud Runtime Configurator**
-
-  Managed configuration services with versioning, validation, and gradual rollouts. **Best for**: cloud-native applications wanting managed config without operating a coordination cluster.
-
-
+*(Note: Internal systems like Google Chubby remain closed benchmarks and are excluded from public SaaS offerings).*
 
 ## Open-Source GitHub Projects
 

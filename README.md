@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Distributed-Coordination/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-Coordination?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Distributed-Coordination/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-Coordination?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-Coordination/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Distributed-Coordination?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-Coordination/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -74,117 +74,117 @@ The following enterprise cloud platforms deliver fully managed coordination, dyn
 
 A comprehensive, rigorously vetted catalog of open-source distributed coordination platforms, Raft/Paxos consensus implementations, and service discovery backbones.
 
-> Repositories are strictly sorted in descending order by **GitHub Stars count**. Each star badge links directly to the project's stargazers community.
+> Repositories are strictly sorted in descending order by **GitHub_Stars_Count**. Each Stars_Badge links directly to the project's stargazers community.
 
-### 1. [Redis](https://github.com/redis/redis) [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
+### 1. [Redis](https://github.com/redis/redis) [![GitHub_Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
 * **Primary Focus**: In-memory data store, distributed locking, pub/sub, and ephemeral coordination primitives.
 * **Consensus / Consistency**: Asynchronous replication (Eventual Consistency) with Redlock algorithm for distributed mutual exclusion.
 * **License**: Redis Source Available License (RSALv2) / SSPL.
 * **Key Features**: Microsecond latency, versatile data structures (Hashes, Sorted Sets, Streams), pub/sub messaging, and distributed locks via Redlock-lite recipes.
 
-### 2. [etcd](https://github.com/etcd-io/etcd) [![GitHub stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social&color=white)](https://github.com/etcd-io/etcd/stargazers)
+### 2. [etcd](https://github.com/etcd-io/etcd) [![GitHub_Stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social&color=white)](https://github.com/etcd-io/etcd/stargazers)
 * **Primary Focus**: Strongly consistent distributed key-value store powering Kubernetes control plane state.
 * **Consensus / Consistency**: Raft Consensus Algorithm (Strict Linearizable Reads/Writes).
 * **License**: Apache-2.0.
 * **Key Features**: Key change watch streams, lease-based TTL expiration, distributed software transactions, RBAC, snapshot restore, and CNCF Graduated project status.
 
-### 3. [Nacos (Alibaba)](https://github.com/alibaba/nacos) [![GitHub stars](https://img.shields.io/github/stars/alibaba/nacos?style=social&color=white)](https://github.com/alibaba/nacos/stargazers)
+### 3. [Nacos (Alibaba)](https://github.com/alibaba/nacos) [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/nacos?style=social&color=white)](https://github.com/alibaba/nacos/stargazers)
 * **Primary Focus**: Dynamic service discovery, configuration management, and service metadata governance.
 * **Consensus / Consistency**: Hybrid architecture (Distro protocol for AP mode, Raft for CP metadata).
 * **License**: Apache-2.0.
 * **Key Features**: Dynamic configuration push, weighted routing, health checks, multi-tier cache, and native integration with Spring Cloud and Dubbo ecosystems.
 
-### 4. [Dragonfly](https://github.com/dragonflydb/dragonfly) [![GitHub stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=social&color=white)](https://github.com/dragonflydb/dragonfly/stargazers)
+### 4. [Dragonfly](https://github.com/dragonflydb/dragonfly) [![GitHub_Stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=social&color=white)](https://github.com/dragonflydb/dragonfly/stargazers)
 * **Primary Focus**: Ultra-high-throughput multi-threaded in-memory datastore and coordination cache.
 * **Consensus / Consistency**: Multi-threaded share-nothing architecture with lock-free coordination algorithms.
 * **License**: Business Source License (BSL 1.1).
 * **Key Features**: Fully compatible with Redis & Memcached APIs, 25x throughput over standard single-threaded Redis, and low-latency locking primitives.
 
-### 5. [HashiCorp Consul](https://github.com/hashicorp/consul) [![GitHub stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers)
+### 5. [HashiCorp Consul](https://github.com/hashicorp/consul) [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers)
 * **Primary Focus**: Multi-cloud service discovery, distributed KV storage, and service mesh orchestration.
 * **Consensus / Consistency**: Raft protocol for consensus + Serf (gossip protocol) for cluster membership and health.
 * **License**: Business Source License (BSL 1.1).
 * **Key Features**: DNS and HTTP API discovery interfaces, active health checking, intentions-based mTLS security, and cross-datacenter WAN federation.
 
-### 6. [Valkey](https://github.com/valkey-io/valkey) [![GitHub stars](https://img.shields.io/github/stars/valkey-io/valkey?style=social&color=white)](https://github.com/valkey-io/valkey/stargazers)
+### 6. [Valkey](https://github.com/valkey-io/valkey) [![GitHub_Stars](https://img.shields.io/github/stars/valkey-io/valkey?style=social&color=white)](https://github.com/valkey-io/valkey/stargazers)
 * **Primary Focus**: Community-driven, purely open-source in-memory key-value data structure and coordination engine.
 * **Consensus / Consistency**: High-speed master-replica asynchronous replication and cluster partitioning.
 * **License**: BSD-3-Clause (Linux Foundation).
 * **Key Features**: Drop-in open-source fork of Redis created by the community and cloud providers; ideal for high-throughput locking and leader election.
 
-### 7. [Dapr](https://github.com/dapr/dapr) [![GitHub stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)
+### 7. [Dapr](https://github.com/dapr/dapr) [![GitHub_Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)
 * **Primary Focus**: Distributed Application Runtime providing distributed lock and state coordination APIs.
 * **Consensus / Consistency**: Pluggable backend coordination providers (etcd, Redis, Zookeeper, Cloud KV).
 * **License**: Apache-2.0.
 * **Key Features**: Polyglot sidecar architecture providing building blocks for distributed locks, pub/sub, service invocation, and workflow orchestration.
 
-### 8. [TiKV](https://github.com/tikv/tikv) [![GitHub stars](https://img.shields.io/github/stars/tikv/tikv?style=social&color=white)](https://github.com/tikv/tikv/stargazers)
+### 8. [TiKV](https://github.com/tikv/tikv) [![GitHub_Stars](https://img.shields.io/github/stars/tikv/tikv?style=social&color=white)](https://github.com/tikv/tikv/stargazers)
 * **Primary Focus**: Distributed transactional key-value database built in Rust.
 * **Consensus / Consistency**: Multi-Raft Consensus protocol with ACID transactions.
 * **License**: Apache-2.0.
 * **Key Features**: Horizontal scalability across petabytes of data, CNCF Graduated project, linearizable distributed reads/writes, and strong consistency.
 
-### 9. [CoreDNS](https://github.com/coredns/coredns) [![GitHub stars](https://img.shields.io/github/stars/coredns/coredns?style=social&color=white)](https://github.com/coredns/coredns/stargazers)
+### 9. [CoreDNS](https://github.com/coredns/coredns) [![GitHub_Stars](https://img.shields.io/github/stars/coredns/coredns?style=social&color=white)](https://github.com/coredns/coredns/stargazers)
 * **Primary Focus**: Fast and flexible DNS-based service discovery for cloud-native infrastructure.
 * **Consensus / Consistency**: Plugin-chained DNS resolution integrating directly with Kubernetes etcd.
 * **License**: Apache-2.0.
 * **Key Features**: Default service registry/DNS engine for Kubernetes, extensible Go plugin pipeline, integrated Prometheus metrics, and split-horizon DNS.
 
-### 10. [Apache ZooKeeper](https://github.com/apache/zookeeper) [![GitHub stars](https://img.shields.io/github/stars/apache/zookeeper?style=social&color=white)](https://github.com/apache/zookeeper/stargazers)
+### 10. [Apache ZooKeeper](https://github.com/apache/zookeeper) [![GitHub_Stars](https://img.shields.io/github/stars/apache/zookeeper?style=social&color=white)](https://github.com/apache/zookeeper/stargazers)
 * **Primary Focus**: Battle-tested centralized service for configuration, distributed locks, naming, and group services.
 * **Consensus / Consistency**: ZooKeeper Atomic Broadcast (ZAB) protocol (Strict Sequential Consistency).
 * **License**: Apache-2.0.
 * **Key Features**: Hierarchical namespace (znodes), ephemeral and sequential nodes for election recipes, watches, and Prometheus observability metrics.
 
-### 11. [Eureka (Netflix)](https://github.com/Netflix/eureka) [![GitHub stars](https://img.shields.io/github/stars/Netflix/eureka?style=social&color=white)](https://github.com/Netflix/eureka/stargazers)
+### 11. [Eureka (Netflix)](https://github.com/Netflix/eureka) [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/eureka?style=social&color=white)](https://github.com/Netflix/eureka/stargazers)
 * **Primary Focus**: Tier-2 service discovery and registry built for AWS mid-tier load balancing and failover.
 * **Consensus / Consistency**: AP system (Eventual Consistency prioritizing availability over immediate consistency).
 * **License**: Apache-2.0.
 * **Key Features**: Client-side load balancing, self-preservation mode during network partitions, and native Spring Cloud Netflix integration.
 
-### 12. [Patroni](https://github.com/zalando/patroni) [![GitHub stars](https://img.shields.io/github/stars/zalando/patroni?style=social&color=white)](https://github.com/zalando/patroni/stargazers)
+### 12. [Patroni](https://github.com/zalando/patroni) [![GitHub_Stars](https://img.shields.io/github/stars/zalando/patroni?style=social&color=white)](https://github.com/zalando/patroni/stargazers)
 * **Primary Focus**: High Availability and consensus coordinator template for PostgreSQL clusters.
 * **Consensus / Consistency**: Delegates quorum and leader elections to DCS backends (etcd, Consul, ZooKeeper).
 * **License**: MIT.
 * **Key Features**: Automated failover, split-brain protection, dynamic reconfiguration, and deep PostgreSQL streaming replication hooks.
 
-### 13. [Hazelcast](https://github.com/hazelcast/hazelcast) [![GitHub stars](https://img.shields.io/github/stars/hazelcast/hazelcast?style=social&color=white)](https://github.com/hazelcast/hazelcast/stargazers)
+### 13. [Hazelcast](https://github.com/hazelcast/hazelcast) [![GitHub_Stars](https://img.shields.io/github/stars/hazelcast/hazelcast?style=social&color=white)](https://github.com/hazelcast/hazelcast/stargazers)
 * **Primary Focus**: In-memory computing platform and distributed data grid with Raft CP subsystem.
 * **Consensus / Consistency**: CP Subsystem based on Raft for linearizable primitives alongside AP memory grid.
 * **License**: Hazelcast Community License / Apache-2.0.
 * **Key Features**: Distributed locks (`FencedLock`), distributed atomic references, countdown latches, and high-performance in-memory stream processing.
 
-### 14. [dqlite](https://github.com/canonical/dqlite) [![GitHub stars](https://img.shields.io/github/stars/canonical/dqlite?style=social&color=white)](https://github.com/canonical/dqlite/stargazers)
+### 14. [dqlite](https://github.com/canonical/dqlite) [![GitHub_Stars](https://img.shields.io/github/stars/canonical/dqlite?style=social&color=white)](https://github.com/canonical/dqlite/stargazers)
 * **Primary Focus**: Distributed SQLite database engine built in pure C for lightweight edge and Kubernetes clusters.
 * **Consensus / Consistency**: C-Raft consensus extension to SQLite.
 * **License**: Apache-2.0 / LGPL-3.0.
 * **Key Features**: Embeddable zero-management consensus store; the default datastore engine for Canonical MicroK8s and LXD.
 
-### 15. [Kuma](https://github.com/kumahq/kuma) [![GitHub stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers)
+### 15. [Kuma](https://github.com/kumahq/kuma) [![GitHub_Stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers)
 * **Primary Focus**: Multi-zone universal service mesh and control plane built on Envoy.
 * **Consensus / Consistency**: Control-plane state synchronizer across distributed data planes.
 * **License**: Apache-2.0.
 * **Key Features**: Multi-zone cluster mesh synchronization, automated mTLS, zero-trust traffic permissions, and hybrid VM/Kubernetes support.
 
-### 16. [SOFAJRaft](https://github.com/sofastack/sofa-jraft) [![GitHub stars](https://img.shields.io/github/stars/sofastack/sofa-jraft?style=social&color=white)](https://github.com/sofastack/sofa-jraft/stargazers)
+### 16. [SOFAJRaft](https://github.com/sofastack/sofa-jraft) [![GitHub_Stars](https://img.shields.io/github/stars/sofastack/sofa-jraft?style=social&color=white)](https://github.com/sofastack/sofa-jraft/stargazers)
 * **Primary Focus**: Production-grade Java implementation of the Raft distributed consensus protocol.
 * **Consensus / Consistency**: Raft Consensus Algorithm with Multi-Raft support.
 * **License**: Apache-2.0.
 * **Key Features**: Disruption-free cluster membership changes, snapshotting, linearizable read index, and high-throughput pipeline optimizations.
 
-### 17. [Apache Curator](https://github.com/apache/curator) [![GitHub stars](https://img.shields.io/github/stars/apache/curator?style=social&color=white)](https://github.com/apache/curator/stargazers)
+### 17. [Apache Curator](https://github.com/apache/curator) [![GitHub_Stars](https://img.shields.io/github/stars/apache/curator?style=social&color=white)](https://github.com/apache/curator/stargazers)
 * **Primary Focus**: Java client framework and high-level recipe library for Apache ZooKeeper.
 * **Consensus / Consistency**: Wraps ZooKeeper's ZAB consistency semantics.
 * **License**: Apache-2.0.
 * **Key Features**: Battle-tested recipes for leader election, distributed locks (`InterProcessMutex`), barriers, shared counters, and connection caches.
 
-### 18. [Atomix](https://github.com/atomix/atomix) [![GitHub stars](https://img.shields.io/github/stars/atomix/atomix?style=social&color=white)](https://github.com/atomix/atomix/stargazers)
+### 18. [Atomix](https://github.com/atomix/atomix) [![GitHub_Stars](https://img.shields.io/github/stars/atomix/atomix?style=social&color=white)](https://github.com/atomix/atomix/stargazers)
 * **Primary Focus**: Reactive distributed coordination and state-machine replication framework.
 * **Consensus / Consistency**: Multi-Raft and primary-backup protocols.
 * **License**: Apache-2.0.
 * **Key Features**: Asynchronous distributed primitives (Maps, Sets, Locks, Value, Multimap) with configurable consistency guarantees.
 
-### 19. [JGroups](https://github.com/belaban/JGroups) [![GitHub stars](https://img.shields.io/github/stars/belaban/JGroups?style=social&color=white)](https://github.com/belaban/JGroups/stargazers)
+### 19. [JGroups](https://github.com/belaban/JGroups) [![GitHub_Stars](https://img.shields.io/github/stars/belaban/JGroups?style=social&color=white)](https://github.com/belaban/JGroups/stargazers)
 * **Primary Focus**: Reliable multicast and group communication toolkit for cluster node membership.
 * **Consensus / Consistency**: Virtual Synchrony and consensus protocols.
 * **License**: Apache-2.0.
